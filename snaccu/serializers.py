@@ -47,7 +47,7 @@ class FASerializer(serializers.ModelSerializer):
         model = Friend
         fields = ['fuser']
 
-class FListSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Friend
-        field = ['first_name', 'last_name', 'email']
+# class FListSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Friend
+#         field = ['first_name', 'last_name', 'email']
